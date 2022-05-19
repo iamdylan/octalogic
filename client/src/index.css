@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.no-of-wheels .css-qfz70r-MuiFormGroup-root {
+  display: flex;
+  justify-content: space-between;
+}
+
+.react-datepicker__input-container input {
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 0.8em;
+}
